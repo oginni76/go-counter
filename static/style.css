@@ -1,0 +1,39 @@
+/* * {
+    background-color: yellow;
+} */
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: yellow;
+}
+/* Styling for the main container */
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+/* Styling for buttons */
+button {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    cursor: pointer;
+    width: 8rem;
+    background-color: black;
+    color: yellow;
+    border: none;
+    border-radius: 2rem;
+
+}
+/* Styling for the counter display */
+#counter {
+    font-size: 2rem;
+    margin: 1rem 0;
+}
